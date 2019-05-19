@@ -1,0 +1,501 @@
+html,body{
+	height:100%;
+	width:100%;
+
+	}
+
+body{
+	background:white;
+}
+
+
+#container {
+	width:100%;
+	height:100%;
+
+}
+
+.section{
+	width:100%;
+	height:100%;
+	position: relative;
+	overflow: hidden;
+}
+
+#first{
+	background:white;
+	overflow:hidden;
+}
+
+.title {
+	font-family:Zenon Black;
+	font-size:48px;
+	color:#23373F;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.header {
+	font-family:Zenon Black;
+	font-size:48px;
+	
+}
+
+.circle{
+	background:url(../images/circlenavy.png) center;
+	width:615px;
+	height:618px;
+	position:absolute;
+	top:-400px;
+	left:80%;
+	animation: circle_rotation 100s infinite linear;
+	z-index: 10;
+}
+
+@keyframes circle_rotation{
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(360deg);}
+} 
+
+.arrow {
+	background:url(../images/arrow.png) center;
+	width:100px;
+	height:200px;
+	position:absolute;
+	top:75%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	animation:arrows 1s infinite linear;
+	animation-direction: alternate;
+}
+
+@keyframes arrows {
+	0%{opacity:0; top:78%;}
+	100%{opacity:1;}
+}
+
+#second{
+	background:white;
+	overflow: hidden;
+}
+
+#h2{
+	position:relative;
+	color:#FCAB90;
+	left:220px;
+	top:200px;
+}
+
+
+
+.content {
+	font-family:Agenda Thin;
+	font-size: 18pt;
+	font-family: agenda, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	width:400px;
+	line-height: 26px
+}
+
+#content2 {
+	position:relative;
+	top:250px;
+	left:125px;
+
+}
+
+.circle2{
+	background:url(../images/circlepink.png) center;
+	width:615px;
+	height:618px;
+	position:relative;
+	top:-80%;
+	left:-30%;
+	animation: circle_rotation 100s infinite linear;
+
+}
+
+
+.slideshow{
+	background:#FCAB90;
+	height:25px;
+	width:25px;
+	border-radius: 100%;
+	float:left;
+	position:relative;
+	margin:25px;
+	top:-200px;
+	left:220px;
+	transform: translate(-50%, -50%)
+	z-index:3;
+}
+/* SLICK SLIDESHOW GALLERY CSS */
+.gallery {
+	width: 900px;
+	height: 100%;
+	border: solid black 0px;
+	overflow: hidden;
+	position: absolute;
+	left: 80%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.slick-list .slick-track .slick-slide {
+	height: 800px;
+	object-fit: cover; /* stretches images to fit gallery frame */
+}
+
+.slick-dots li {
+	color: red;
+	position: relative;
+	top: -60px;
+	background: #FCAB90;
+	border-radius: 100%;
+	margin-right: 10px; /* spacing between each button */
+}
+
+.slick-dots li:hover {
+	background: white;
+}
+
+.slick-dots .slick-active {
+	background: #23373F;
+}
+
+#slick-slide-control00, #slick-slide-control01, #slick-slide-control02 {
+	opacity: 0; /* hides default buttons */
+}	
+
+/* SLICK SLIDESHOW GALLERY CSS */
+
+#ss1{ background:#23373F;
+
+}
+
+#ss2{
+	
+}
+
+#ss3{
+
+}
+
+#third{
+	background:#FCAB90;
+}
+
+
+
+#h3{
+	position:relative;
+	color:#23373F;
+	left:87.5%;
+	top:150px;
+	transform: translate(-50%,-50%);
+	
+}
+
+.round{
+	background:white;
+	height:250px;
+	width:250px;
+	border-radius: 100%;
+	position:relative;
+	float:left;
+	margin:50px;
+	top:310px;
+	left:22.5%;
+	transform: translate(-50%, -50%);
+	overflow:hidden;
+	
+}
+
+.circle3{
+	background:url(../images/circlewhite.png) center;
+	width:615px;
+	height:618px;
+	position:absolute;
+	top:594px;
+	left:-20%;
+	animation: circle_rotation 100s infinite linear;
+	z-index: 10;
+}
+
+#c1{
+	background:url(../images/environment.png) center;
+
+}
+
+
+#c2{
+	background:url(../images/economy.png) center;
+}
+
+#c3{
+	background:url(../images/society.png) center;
+}
+
+
+
+#fourth{
+	background:#23373F;
+}
+
+.img3 {
+	position:relative;
+	width:800px;
+	height:100%;
+	background:url(../images/clothing.png) center ;
+	left:0px;
+	overflow: hidden;
+	
+}
+
+
+
+#h4{position:absolute;
+	color:#FCAB90;
+	left:900px;
+	top:150px;
+	z-index: 2;}
+
+.cursive {
+	position:absolute;
+	background:url(../images/environmentheader.png) center;
+	height:250px;
+	width:450px;
+	left:900px;
+	top:102px;
+	z-index: 2;
+}
+
+#content3 {
+	position:absolute;
+	top:300px;
+	left:940px;
+	color:white;
+
+}
+c
+
+
+
+
+#fifth{
+	background:white;
+}
+
+#h5{position:relative;
+	color:#23373F;
+	left:87.5%;
+	top:120px;
+	transform: translate(-50%,-50%); }
+
+.cursive2 {
+	position:absolute;
+	background:url(../images/economyheader.png) center;
+	height:250px;
+	width:450px;
+	left:55%;
+	top:145px;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+}
+.timeline{
+	background:url(../images/line.png);
+	width:1000px;
+	height:200px;
+	position:absolute;
+	top:290px;
+	left:17%;
+	z-index: 3
+}
+
+.timeline2{
+	background:white;
+	height:600px;
+	width:300px;
+	
+	position:relative;
+	float:left;
+	margin:50px;
+	top:210px;
+	left:20%;
+	transform: translate(-50%, -50%);
+	overflow:hidden;
+	
+}
+
+#t1{
+	background:url(../images/phonepink.png) center no-repeat;
+
+}
+
+#t1:hover {background:url(../images/phonenavy.png) center no-repeat;
+	display:block;
+}
+
+#t1:hover .textt {opacity:1;}
+
+
+#t2{
+	background:url(../images/pricepink.png) center no-repeat;
+}
+
+#t2:hover {background:url(../images/pricenavy.png) center no-repeat;
+}
+
+#t2:hover .textt {opacity:1;}
+
+#t3{
+	background:url(../images/medalspink.png) center no-repeat;
+}
+
+#t3:hover {background:url(../images/medalsnavy.png) center no-repeat;}
+
+#t3:hover .textt {opacity:1;}
+
+#t4{
+	background:url(../images/closingpink.png) center no-repeat;
+}
+
+#t4:hover {background:url(../images/closingnavy.png) center no-repeat;}
+
+#t4:hover .textt {opacity:1;}
+
+#tt1 {
+	font-family:Agenda Thin;
+	font-size: 12pt;
+	font-family: agenda, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	width:400px;
+	line-height: 26px;
+	position:absolute;
+	color:#23373F;
+	width:200px;
+	top:70%;
+	left:19%;
+
+	opacity:0;
+	
+}
+
+#tt2 {
+	font-family:Agenda Thin;
+	font-size: 12pt;
+	font-family: agenda, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	width:400px;
+	line-height: 26px;
+	position:relative;
+	color:#23373F;
+	width:200px;
+	top:65%;
+	left:22%;
+	opacity:0;
+	
+}
+
+#hover{
+	position:absolute;
+	left:50%;
+	top:93%;
+	color:#23373F;
+	font-size: 12px;
+
+}
+
+
+#sixth{
+	background:#FCAB90;
+}
+
+#h6{
+	position:relative;
+	color:white;
+	left:100px;
+	top:180px;
+}
+
+#content6 {
+	position:relative;
+	top:250px;
+	left:125px;
+
+}
+
+
+.gallery2 {
+	width: 900px;
+	height: 100%;
+	border: solid black 0px;
+	overflow: hidden;
+	position: absolute;
+	left: 80%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.cursive3{
+	position:absolute;
+	background:url(../images/society2.png) center;
+	height:250px;
+	width:450px;
+	left:23%;
+	top:255px;
+	transform: translate(-50%,-50%);
+	z-index: 2;
+
+}
+
+.circle4{
+	background:url(../images/circlewhite.png) center;
+	width:615px;
+	height:618px;
+	position:relative;
+	top:-15%;
+	left:-20%;
+	animation: circle_rotation 100s infinite linear;
+
+}
+.button {
+	background:white;
+	height:250px;
+	width:250px;
+	border-radius: 100%;
+	position:absolute;
+	top:65%;
+	left:65%;
+	transform: translate(-50%, -50%);
+	overflow:hidden;
+	z-index: 3}
+
+a{
+	color:black;
+	font-size: 18px;
+	font-family: agenda, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+}
+
+	#h7 {
+		position:relative;
+		color:white;
+		left:41%;
+		top:-60%;
+	}
+
+#seventh{
+	background:#23373F;
+}
